@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Creació etiqueta botigaroba general -->
+<botigaonline>
+    <roba>
+        <!-- Creació primer producte -->
+        <producte1 category="nens">
+            <codi>1</codi>
+            <nom>Samarreta de nen amb màniga llarga amb gràfic</nom>
+            <descripcio>Confeccionada amb cotó orgànic</descripcio>
+            <preu>20.00</preu>
+            <categoria>Samarreta</categoria>
+            <disponibilitat>En estoc</disponibilitat>
+            <!-- Enllaç escurçat -->
+            <imatge source="https://acortar.link/4zdBU9"/>
+        </producte1>
+        <!-- Creació segon producte -->
+        <producte2 category="dones">
+            <codi>2</codi>
+            <nom>Vestit midi coll perkins</nom>
+            <descripcio>Vestit recte de màniga llarga, amb coll estil perkins, amb obertura en lateral de la faldilla</descripcio>
+            <preu>35.99</preu>
+            <categoria>Vestit</categoria>
+            <disponibilitat>Esgotat</disponibilitat>
+            <!-- Enllaç escurçat -->
+            <imatge source="https://acortar.link/0MBaRt"/>
+        </producte2>
+    </roba>
+</botigaonline>
