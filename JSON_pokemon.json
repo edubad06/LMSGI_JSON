@@ -1,0 +1,311 @@
+{
+    "pokemon": [
+        {
+            "id": 1,
+            "nom": "Igglybuff",
+            "tipus": [
+                "Normal", 
+                "Fada"
+            ],
+            "pes": "1.0 kg",
+            "altura": "0.3 m",
+            "estadisitques": {
+                "Velocitat": 4,
+                "Fortalesa": 3,
+                "Precisió": 3,
+                "Resistència": 4,
+                "Salt": 4
+            },
+            "moviments": [
+                {
+                    "nom": "Destructor",
+                    "descripció": "Destructor causa mal i no té cap efecte secundari.",
+                    "potència": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "Canto",
+                    "descripció": "Canto és un moviment de so que dorm a l'objectiu.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Copiador",
+                    "descripció": "Copiador utilitza l'últim moviment usat en combat, sigui propi, de l'oponent o d'un aliat.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Rínxol defensa",
+                    "descripció": "Rínxol defensa augmenta en un nivell la defensa de l'usuari. Si s'usa aquest moviment abans d'usar rodar o bola gelo, aquests tindran el doble de potència. Aquest efecte es manté mentre l'usuari romangui en combat.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Petó dolç",
+                    "descripció": "Petó dolç és un moviment de tipus normal que causa confusió a l'objectiu.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Veu captivadora",
+                    "descripció": "Veu captivadora és un moviment de so que causa mal i no té cap efecte secundari.",
+                    "potència": 40,
+                    "contacte": false
+                },
+                {
+                    "nom": "Anul·lació",
+                    "descripció": "Anul·lació tria a l'atzar un moviment que conegui l'objectiu, el PP del qual siguin majors de 0 i ho anul·la, impedint usar-ho d'1 a 8 torns.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Encant",
+                    "descripció": "Encant redueix en dos nivells l'atac de l'objectiu. Es tracta d'un moviment de tipus normal.",
+                    "potència": null,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5b/latest/20230627210114/Igglybuff.png/300px-Igglybuff.png",
+            "evolucions": [
+                {
+                    "id": 1.1,
+                    "nivell_per_evolucionar": "Amistat"
+                },
+                {
+                    "id": 1.2,
+                    "nivell_per_evolucionar": "Pedra lunar"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "Doduo",
+            "tipus": [
+                "Normal", 
+                "Volador"
+            ],
+            "pes": "39.2 kg",
+            "altura": "1.4 m",
+            "estadisitques": {
+                "Velocitat": 5,
+                "Fortalesa": 3,
+                "Precisió": 3,
+                "Resistència": 4,
+                "Salt": 3
+            },
+            "moviments": [
+                {
+                    "nom": "Grunyit",
+                    "descripció": "Grunyit és un moviment de so que baixa un nivell l'atac de l'objectiu. En combats dobles i triples afecta als oponents adjacents. No afecta a Pokémon amb les habilitats talli forta, cos pur, fum blanc, guàrdia metàl·lica o insonoritzar.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Becarrada",
+                    "descripció": "Becarrada causa mal i no té cap efecte secundari. En combats triples, a més, pot colpejar a un Pokémon no adjacent.",
+                    "potència": 35,
+                    "contacte": true
+                },
+                {
+                    "nom": "Atac ràpid",
+                    "descripció": "Atac ràpid causa mal i és un moviment d'alta prioritat (+1). Si l'oponent no usa cap atac d'alta prioritat, l'usuari sempre atacarà primer, independentment de les velocitats de l'usuari i de l'oponent. Si l'oponent també usa un atac d'augment de prioritat +1 atacarà primer el que tingui més velocitat.",
+                    "potència": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "Atac fúria",
+                    "descripció": "Atac fúria causa mal, colpejant a l'objectiu de 2 a 5 vegades en un mateix torn. El moviment té una probabilitat del 37,5% de colpejar 2 vegades, un 37,5% de fer-ho 3 vegades, un 12,5% de 4 vegades, i un 12,5% de 5 vegades.",
+                    "potència": 15,
+                    "contacte": true
+                },
+                {
+                    "nom": "Picotejo",
+                    "descripció": "Picotejo causa mal a l'objectiu i si aquest porta una baia equipada, l'usuari se la menjarà i es veurà afectat pels efectes d'aquesta baia. L'efecte roba baies no serveix si l'objectiu està darrere d'un substitut o si posseeix l'habilitat viscositat.",
+                    "potència": 60,
+                    "contacte": true
+                },
+                {
+                    "nom": "Doble cop",
+                    "descripció": "Doble cop causa mal, colpejant a l'objectiu 2 vegades en un mateix torn.",
+                    "potència": 35,
+                    "contacte": true
+                },
+                {
+                    "nom": "Agilitat",
+                    "descripció": "Agilitat augmenta en dos nivells la velocitat de l'usuari.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Rebombori",
+                    "descripció": "Rebombori és un moviment de so que causa mal durant 2 a 5 torns, impedint l'ús d'altres moviments. Mentre un Pokémon estigui esvalotat impedeix que tots els Pokémon en combat s'adormin i desperta a tots aquells que estiguessin adormits.",
+                    "potència": 90,
+                    "contacte": false
+                },
+                {
+                    "nom": "Digitopressió",
+                    "descripció": "Digitopressió puja dos nivells una de les característiques de l'usuari a l'atzar: atac, defensa, atac especial, defensa especial, velocitat, precisió o evasió.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Dansa espasa",
+                    "descripció": "Dansa espasa puja dos nivells l'atac de l'usuari. El moviment té 30 PP.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Pic trepant",
+                    "descripció": "Pic trepo causa mal i no té cap efecte secundari. En combats triples, a més, pot colpejar a un Pokémon no adjacent.",
+                    "potència": 80,
+                    "contacte": true
+                },
+                {
+                    "nom": "Esforç",
+                    "descripció": "Esforç redueix els PS de l'objectiu per a igualar-los als PS actuals del Pokémon que usa aquest moviment. Si l'objectiu té menys PS actuals que l'usuari, esforç fallarà.",
+                    "potència": null,
+                    "contacte": true
+                },
+                {
+                    "nom": "Ferotgia",
+                    "descripció": "Ferotgia causa mal i no té cap efecte secundari, colpejant entre 3 o 4 torns seguits. Mentre s'executa, l'usuari no podrà realitzar una altra acció fins que s'acabi el moviment i quan això ocorri l'usuari es confondrà.",
+                    "potència": 120,
+                    "contacte": true
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9c/latest/20160625153314/Doduo.png/300px-Doduo.png",
+            "evolucions": [
+                {
+                    "id": 2.1,
+                    "nivell_per_evolucionar": "31"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nom": "Seel",
+            "tipus": "Aigua",
+            "pes": "90.0 kg",
+            "altura": "1.1 m",
+            "estadisitques": {
+                "Velocitat": 3,
+                "Fortalesa": 3,
+                "Precisió": 2,
+                "Resistència": 4,
+                "Salt": 3
+            },
+            "moviments": [
+                {
+                    "nom": "Cop cap",
+                    "descripció": "Cop cap causa mal i té una probabilitat del 30% d'acoquinar a l'objectiu.",
+                    "potència": 70,
+                    "contacte": true
+                },
+                {
+                    "nom": "Grunyit",
+                    "descripció": "Grunyit és un moviment de so que baixa un nivell l'atac de l'objectiu. En combats dobles i triples afecta als oponents adjacents. No afecta a Pokémon amb les habilitats talli forta, cos pur, fum blanc, guàrdia metàl·lica o insonoritzar.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Encant",
+                    "descripció": "Encant redueix en dos nivells l'atac de l'objectiu. Es tracta d'un moviment de tipus normal.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Vent gelat",
+                    "descripció": "Vent gelat causa mal i sempre redueix en un nivell la velocitat de l'objectiu. En combats dobles, colpeja a tots dos oponents i en combats triples als oponents adjacents.",
+                    "potència": 55,
+                    "contacte": false
+                },
+                {
+                    "nom": "Una altra vegada",
+                    "descripció": "Una altra vegada obliga al Pokémon objectiu a utilitzar l'últim moviment realitzat, amb una durada de 2 a 6 torns.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Esquirla gelada",
+                    "descripció": "Esquirla gelada causa mal i és un moviment d'alta prioritat (+1). Si l'oponent no utilitza cap atac d'alta prioritat, l'usuari sempre atacarà primer, independentment de les velocitats de l'usuari i de l'oponent. Si l'oponent també utilitza un atac d'augment de prioritat +1 atacarà primer el que tingui més velocitat.",
+                    "potència": 40,
+                    "contacte": false
+                },
+                {
+                    "nom": "Descans",
+                    "descripció": "Descans fa que l'usuari s'adormi i recuperi la totalitat dels PS, curant en el procés qualsevol problema d'estat.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Acua aro",
+                    "descripció": "L'usuari es cobreix amb uns anells d'aigua, que li fan recuperar un 6,25% dels seus PS màxims al final de cada torn.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Raig aurora",
+                    "descripció": "Raig aurora causa mal i té una probabilitat del 10% de baixar un nivell l'atac de l'objectiu.",
+                    "potència": 65,
+                    "contacte": false
+                },
+                {
+                    "nom": "Acua jet",
+                    "descripció": "Acua jet causa mal i és un moviment d'alta prioritat (+1). Si l'oponent no usa cap atac de prioritat, el Pokémon sempre atacarà primer, independentment de les velocitats de l'usuari i de l'oponent. Si l'oponent també usa un atac d'augment de prioritat +1 atacarà primer el que tingui més velocitat.",
+                    "potència": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "Salmorra",
+                    "descripció": "Salmorra causa mal i la seva potència es duplica a 130 si l'objectiu té la meitat o menys dels seus PS totals.",
+                    "potència": 65,
+                    "contacte": false
+                },
+                {
+                    "nom": "Enderrocament",
+                    "descripció": "Enderrocament causa mal i l'usuari rep un mal de retrocés igual a 1/4 dels PS restats a l'objectiu. L'usuari no rebrà mal de retrocés si té les habilitats cap roca o mur màgic. Enderrocament augmenta la seva potència un 20% més si és usat per un Pokémon amb l'habilitat audaç.",
+                    "potència": 90,
+                    "contacte": true
+                },
+                {
+                    "nom": "Busseig",
+                    "descripció": "L'usuari busseja en el primer torn i el segon torn ataca.",
+                    "potència": 80,
+                    "contacte": true
+                },
+                {
+                    "nom": "Acua cua",
+                    "descripció": "Acua cua causa mal i no té cap efecte secundari.",
+                    "potència": 90,
+                    "contacte": true
+                },
+                {
+                    "nom": "Raig gelat",
+                    "descripció": "Raig gelat causa mal i té una probabilitat del 10% de congelar a l'objectiu.",
+                    "potència": 90,
+                    "contacte": false
+                },
+                {
+                    "nom": "Vel sagrat",
+                    "descripció": "Vel sagrat evita els problemes d'estat que puguin causar els atacs de l'oponent durant 5 torns. Evita els estats de confusió, adormit, enverinament, paràlisi, cremades i congelació. Aquest moviment prevé els canvis d'estat, però no els cura si ja són presents. L'efecte es manté en canviar de Pokémon i protegeix a tots els Pokémon de l'equip i tots els aliats en combats dobles o triples.",
+                    "potència": null,
+                    "contacte": false
+                },
+                {
+                    "nom": "Paisatge nevat",
+                    "descripció": "Paisatge nevat és un moviment de canvi de temps atmosfèric que consisteix a fer que neu durant 5 torns.",
+                    "potència": null,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f1/latest/20230627050530/Seel.png/300px-Seel.png",
+            "evolucions": [
+                {
+                    "id": 3.1,
+                    "nivell_per_evolucionar": 34
+                }
+            ]
+        }
+    ]
+}
